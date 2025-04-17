@@ -7,3 +7,5 @@ would show up in the doxygen file, but I was confused about the clarity and scop
 Also added some test comments to Employee.cpp to see if doxygen would pick any of it up.
 
 Now also did more testing for running class-doq on all the classes.
+
+Ran fun doq and class doq on relevant areas.
