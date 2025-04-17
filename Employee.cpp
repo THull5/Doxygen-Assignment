@@ -23,20 +23,20 @@ Employee::Employee(int ID, int years, double hourlyRate, float hoursWorked) {
   this->hoursWorked = hoursWorked;
 }
 
-void Employee::print() {
+void Employee::print() { //prints the employee information
   cout << "Printing information for employee " << ID << ":\n Years Employed: " << years
        << "\n Hourly Rate: " << hourlyRate << "\n Hours Worked: " << hoursWorked
        << endl;
 }
 
-void Employee::anniversary() {
+void Employee::anniversary() { //reward message for employee anni
   years++;
   hourlyRate = hourlyRate + hourlyRate * .002;
   cout << "Congratulations to employee " << ID << " on " << years << " year(s) at company!"
        << endl;
 }
 
-double Employee::calculatePay() {
+double Employee::calculatePay() { //functuin to calculate pay
   return hourlyRate * hoursWorked;
 }
 
