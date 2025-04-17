@@ -5,3 +5,5 @@ into. The only problem I ran into was the last part of the assignment about docu
 would show up in the doxygen file, but I was confused about the clarity and scope of the comments we should add ourselves. Other than that, everything is here and worked properly.
 
 Also added some test comments to Employee.cpp to see if doxygen would pick any of it up.
+
+Now also did more testing for running class-doq on all the classes.
