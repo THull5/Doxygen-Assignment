@@ -12,6 +12,12 @@
 
 #include "Employee.h"
 
+/**
+ * Supervisor class
+ *
+ * @class Supervisor class
+ */
+
 class Supervisor : public Employee {
  private:
   int numSupervised;

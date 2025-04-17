@@ -10,6 +10,12 @@
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
 
+/**
+ * Employee class
+ *
+ * @class Employee class
+ */
+
 class Employee {
  private:
   int ID; //employee ID

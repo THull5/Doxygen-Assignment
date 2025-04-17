@@ -12,6 +12,12 @@
 
 #include "Employee.h"
 
+/**
+ * Officer class
+ *
+ * @class Officer class
+ */
+
 class Officer : public Employee {
  private:
   double evilness;
