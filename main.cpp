@@ -1,3 +1,12 @@
+/**
+ * @file main.cpp
+ * @author Tyler Hull
+ * @date 2025-04-17
+ * @brief Driver for Employee program
+ * 
+ * Testing our Eomployee Program
+ */
+
 
 #include <iostream>
 #include "Employee.h"

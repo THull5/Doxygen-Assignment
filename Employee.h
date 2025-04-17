@@ -1,3 +1,12 @@
+/**
+ * @file Employee.h
+ * @author Tyler Hull
+ * @date 2025-04-17
+ * @brief Header file for Employees
+ * 
+ * Header file for Employees
+ */
+
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
 

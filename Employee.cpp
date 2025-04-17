@@ -1,3 +1,12 @@
+/**
+ * @file Employee.cpp
+ * @author Tyler Hull
+ * @date 2025-04-17
+ * @brief Employee logic
+ * 
+ * Employee logic
+ */
+
 #include "Employee.h"
 #include <iostream>
 

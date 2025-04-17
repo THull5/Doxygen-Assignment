@@ -1,3 +1,12 @@
+/**
+ * @file Officer.cpp
+ * @author Tyler Hull
+ * @date 2025-04-17
+ * @brief Driver for Officer
+ * 
+ * Logic file for our officer
+ */
+
 #include "Officer.h"
 #include <iostream>
 

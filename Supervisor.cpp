@@ -1,3 +1,12 @@
+/**
+ * @file Supervisor.cpp
+ * @author Tyler Hull
+ * @date 2025-04-17
+ * @brief Driver for our Supervisor Class
+ * 
+ * Logic for our Supervisor class
+ */
+
 #include "Supervisor.h"
 #include <iostream>
 

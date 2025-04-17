@@ -1,3 +1,12 @@
+/**
+ * @file Supervisor.h
+ * @author Tyler Hull
+ * @date 2025-04-17
+ * @brief Header for our supervisor class
+ * 
+ * Header for our SUpervisor class wowie zowie 
+ */
+
 #ifndef SUPERVISOR_H
 #define SUPERVISOR_H
 
