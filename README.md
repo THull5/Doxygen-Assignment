@@ -9,3 +9,6 @@ Also added some test comments to Employee.cpp to see if doxygen would pick any o
 Now also did more testing for running class-doq on all the classes.
 
 Ran fun doq and class doq on relevant areas.
+
+After doing all the above and rerunning the config file everything shows up. The index, hierarchy, members, and list. The members shows all the comments I made. They're probably
+not the most correct thing but for this assignment the important thing is that they showed up in the doxy file. 
