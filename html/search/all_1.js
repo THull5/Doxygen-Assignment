@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['employee_1',['Employee',['../classEmployee.html',1,'']]],
-  ['employee_2ecpp_2',['Employee.cpp',['../Employee_8cpp.html',1,'']]],
-  ['employee_2eh_3',['Employee.h',['../Employee_8h.html',1,'']]]
+  ['calculatepay_1',['calculatePay',['../classEmployee.html#a01c2c44e15434237db28832f6972e960',1,'Employee::calculatePay()'],['../classOfficer.html#a1fa1aad39b9e95be7a088990ebf17059',1,'Officer::calculatePay()'],['../classSupervisor.html#aa37daa89523c08b84ae8141299e036f8',1,'Supervisor::calculatePay()']]]
 ];
