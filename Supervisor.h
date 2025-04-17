@@ -22,8 +22,26 @@ class Supervisor : public Employee {
  private:
   int numSupervised;
  public:
-  void print();
-  double calculatePay();
+
+/**
+ * Prints msg
+ *
+ * @pre None
+ * @return void 
+ * @post Returns msg
+ * 
+ */
+  void print(); //prints pay
+
+/**
+ * Calculates pay
+ *
+ * @pre None
+ * @return double 
+ * @post Returns pay
+ * 
+ */
+  double calculatePay(); //calculates supervisor pay
   Supervisor();
   Supervisor(int ID, int years, double hourlyRate, float hoursWorked, int numSupervised);
 };

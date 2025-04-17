@@ -12,7 +12,7 @@
 
 using namespace std;
 
-Supervisor::Supervisor() {
+Supervisor::Supervisor() { //Intializer
   numSupervised = -1;
 }
 
@@ -20,12 +20,30 @@ Supervisor::Supervisor(int ID, int years, double hourlyRate, float hoursWorked, 
   this->numSupervised = numSupervised;
 }
 
-void Supervisor::print() {
+
+/**
+ * Prints msg
+ *
+ * @pre None
+ * @return void 
+ * @post Returns msg
+ * 
+ */
+void Supervisor::print() { //prints msg
   Employee::print();
   cout << " Number Supervised: " << numSupervised << endl;
 }
 
-double Supervisor::calculatePay() {
+
+/**
+ * Calculates pay
+ *
+ * @pre Employee pay 
+ * @return double 
+ * @post Returns pay
+ * 
+ */
+double Supervisor::calculatePay() { //calculates supervisor pay
   double val = Employee::calculatePay();
   val = val + val * (.01 * numSupervised);
   return val;

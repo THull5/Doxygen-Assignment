@@ -64,7 +64,7 @@ int main() {
   return 0;
 }
 
-void runEmployeeTests(Employee &e) {
+void runEmployeeTests(Employee &e) { //Driver program to run our tests on
   
   cout << "Initial print():" << endl;
   e.print();

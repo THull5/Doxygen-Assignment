@@ -22,8 +22,27 @@ class Officer : public Employee {
  private:
   double evilness;
  public:
-  void print();
-  double calculatePay();
+
+/**
+ * Prints msg
+ *
+ * @pre None
+ * @return void 
+ * @post Returns text
+ * 
+ */
+  void print(); //prints msg
+  
+
+/**
+ * calulcautes pay
+ *
+ * @pre None
+ * @return double 
+ * @post Returns pay
+ * 
+ */
+  double calculatePay(); //calculate officer's pay
   Officer();
   Officer(int ID, int years, double hourlyRate, float hoursWorked, double evilness);
 };

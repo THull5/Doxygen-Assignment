@@ -12,19 +12,37 @@
 
 using namespace std;
 
-Officer::Officer() {
+Officer::Officer() { //Initializer
   evilness = 500;
 }
 
-Officer::Officer(int ID, int years, double hourlyRate, float hoursWorked, double evilness) : Employee(ID, years, hourlyRate, hoursWorked) {
+Officer::Officer(int ID, int years, double hourlyRate, float hoursWorked, double evilness) : Employee(ID, years, hourlyRate, hoursWorked) { //Read information from employee/officer class
   this->evilness = evilness;
 }
 
-void Officer::print() {
+
+/**
+ * Prints msg
+ *
+ * @pre None
+ * @return void 
+ * @post Prints msg
+ * 
+ */
+void Officer::print() { //prints infor
   Employee::print();
   cout << " Evilness: " << evilness << endl;
 }
 
-double Officer::calculatePay() {
+
+/**
+ * Calculates pay
+ *
+ * @pre None
+ * @return double 
+ * @post Returns pay
+ * 
+ */
+double Officer::calculatePay() { //calculates pay
   return (hourlyRate + evilness) * hoursWorked;
 }
