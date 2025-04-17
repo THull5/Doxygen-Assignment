@@ -25,10 +25,15 @@ class Employee {
   double hourlyRate;
   float hoursWorked;
  public:
+  /**
+   * Prints information 
+   * @param test
+   * @return 0 if successful, 1 on error
+   */
   virtual void print();
-  virtual double calculatePay();
-  void anniversary();
-  Employee();
+  virtual double calculatePay(); //calculate employee pay
+  void anniversary(); //print anni msg
+  Employee(); 
   Employee(int ID, int years, double hourlyRate, float hoursWorked);
 };
 
